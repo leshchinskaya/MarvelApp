@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.MainActivity">
+
+    <Button
+        android:id="@+id/btn_heroes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/cardMarginSide"
+        android:layout_marginRight="@dimen/cardMarginSide"
+        android:layout_marginTop="@dimen/cardMarginTop"
+        android:textSize="@dimen/cardTextSize"
+        android:textColor="@color/colorWhite"
+        android:text="@string/heroesCard"
+        android:fontFamily="@font/font"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/cardMarginSide"
+        android:layout_marginRight="@dimen/cardMarginSide"
+        android:layout_marginTop="@dimen/cardMarginTop"
+        android:textSize="@dimen/cardTextSize"
+        android:textColor="@color/colorWhite"
+        android:text="@string/comicsCard"
+        android:fontFamily="@font/font"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/cardMarginSide"
+        android:layout_marginRight="@dimen/cardMarginSide"
+        android:layout_marginTop="@dimen/cardMarginTop"
+        android:textSize="@dimen/cardTextSize"
+        android:textColor="@color/colorWhite"
+        android:text="@string/eventCard"
+        android:fontFamily="@font/font"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/cardMarginSide"
+        android:layout_marginRight="@dimen/cardMarginSide"
+        android:layout_marginTop="@dimen/cardMarginTop"
+        android:layout_marginBottom="@dimen/cardMarginTop"
+        android:textSize="@dimen/cardTextSize"
+        android:textColor="@color/colorWhite"
+        android:text="@string/seriesCard"
+        android:fontFamily="@font/font"/>
+
+</LinearLayout>

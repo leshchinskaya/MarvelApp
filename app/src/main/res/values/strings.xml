@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Marvel Guide</string>
+    <string name="heroesCard">HEROES</string>
+    <string name="comicsCard">COMICS</string>
+    <string name="eventCard">EVENTS</string>
+    <string name="seriesCard">SERIES</string>
+    <string name="description">Description</string>
+    <string name="comics">Comics</string>
+</resources>

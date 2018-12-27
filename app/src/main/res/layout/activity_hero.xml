@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView_hero"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardMarginSide"
+            android:layout_marginRight="@dimen/cardMarginSide"
+            android:textSize="@dimen/heroName"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardMarginSide"
+            android:layout_marginTop="@dimen/cardMarginSide"
+            android:layout_marginRight="@dimen/cardMarginSide"
+            android:text="@string/description"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textTitle"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardMarginSide"
+            android:layout_marginTop="@dimen/cardMarginSide"
+            android:layout_marginRight="@dimen/cardMarginSide"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textCommon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardMarginSide"
+            android:layout_marginTop="@dimen/cardMarginSide"
+            android:layout_marginRight="@dimen/cardMarginSide"
+            android:text="@string/comics"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textTitle"
+            android:textStyle="bold" />
+
+        <view
+            android:id="@+id/recycleView_Comics"
+            android:background="@color/colorPrimaryDark"
+            class="android.support.v7.widget.RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horizontalRVHeight"
+            android:layout_marginTop="@dimen/cardMarginSide"
+            android:orientation="horizontal" />
+    </LinearLayout>
+</ScrollView>

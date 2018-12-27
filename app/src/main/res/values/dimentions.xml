@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardMarginSide">10dp</dimen>
+    <dimen name="cardMarginTop">10dp</dimen>
+    <dimen name="cardTextSize">60dp</dimen>
+    <dimen name="itemMarginBottom">20dp</dimen>
+    <dimen name="cardCornerRadius">30dp</dimen>
+    <dimen name="heroName">30dp</dimen>
+    <dimen name="textTitle">20dp</dimen>
+    <dimen name="textCommon">16dp</dimen>
+    <dimen name="horizontalRVHeight">140dp</dimen>
+    <dimen name="textOnCard">8dp</dimen>
+</resources>
